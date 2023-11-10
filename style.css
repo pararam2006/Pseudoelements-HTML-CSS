@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+header {  
+    background-color: #333333;  
+    position: fixed;  
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100; 
+    width: 100%;  
+}
+
+header p {
+    padding-left: 16px;
+}
+
+main {
+    margin-top: 17vh;
+}
+
+nav {
+    margin-left: 0%;
+}
+.Цитата{
+    background-color: black;
+    color: whitesmoke; 
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    font-style: oblique;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+body {
+   background: rgb(201,200,226);
+   background: linear-gradient(90deg, rgba(201,200,226,1) 0%, rgba(115,200,165,1) 30%, rgba(0,212,255,1) 100%);
+   background-repeat: repeat;
+   font-family: 'Pixelify Sans', Arial, Helvetica, sans-serif;
+   /* margin-top: 18vh; */
+}
+
+.address {
+    color: blue;
+}
+
+div {
+   margin: 5px;
+}
+
+.image1 {
+   border-color: red;
+   border-style: dashed;
+}
+
+.image2{
+   border-color: red;
+   border-style: dotted;
+}
+
+.manul {
+    line-height: 110%;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
+
+
+.pseudo-test::before{ content: "Внимание! "; font-weight: bold; }
+.pseudo-test::after { content: " псевдоэлементами!"; font-weight: bold;}
+
